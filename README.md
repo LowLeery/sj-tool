@@ -4,9 +4,7 @@ my first project.
 
 # How to use?
 git clone https://github.com/LowLeery/sj-tool.git
-
 cd sj-tool
-
 bash calistir.sh
 
 # Contact
