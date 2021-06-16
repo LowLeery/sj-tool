@@ -11,7 +11,7 @@ mavi="\e[1;34m"
 yesil="\e[0;32m"
 
 #sürüm
-anan="SJ | V0.0.1"
+anan="SJ | V1.0.0"
 
 yuklemebari ()
 {
