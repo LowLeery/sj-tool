@@ -12,3 +12,19 @@ bash calistir.sh
 # Contact
 
 DISCORD: leri#3131
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
