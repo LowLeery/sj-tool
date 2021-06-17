@@ -108,13 +108,10 @@ if [[ $1 =~ ^(-d|--ddos) ]] ; then
             else
             sleep 0.3
             echo -e "${kirmizi}[NOT]: ${beyaz}Durdurmak için CTRL + C tuşlarına basınız."
+            echo -e "${kirmizi}[NOT]: ${beyaz}Göz kirliliği olmaması açısından sadece 1 adet bilgilendirme mesajı atıyorum. \n"
             sleep 1
-            clear
+            echo -e "${kirmizi}[${yesil}${2}:${3}${kirmizi}] ${beyaz}Adresine saldırı yapılıyor."
             python3 dokunma.py ${2} ${3}
-            while :; do
-              sleep 0.3
-               echo -e "${kirmizi}[${yesil}${2}:${3}${kirmizi}] ${beyaz}Adresine saldırı yapılıyor."
-            done
             fi
         fi
     fi
